@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>VIKRANTH P Portfolio</title>
+</head>
+
+<body>
+    <header class="navBar">
+        <div class="navBar-container">
+            <div class="logo">
+               VIKRANTH P
+            </div>
+
+            <nav class="menu">
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>  
+                    <li><a class="nav-link" href="#education">Education</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero">
+            <div class="hero-text">
+                <div>
+                    <h1>Hi, I'm <span class="name">VIKRANTH P</span></h1>
+                    <p>I'm a passionate web developer with a knack for creating dynamic and responsive web applications.</p>
+                </div>
+                <div class="hero-btn">
+                    <button class="btn"><a href="#projects" >View Skills</a></button> 
+                    <button class="btn"><a href="#Contact" >Contact Me</a></button> 
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <img src="./hero-img.webp" alt="hero-image" class="hero-img" >
+            </div>
+        </div>
+    </section>
+
+
+  <section id="about" class="section">
+   <div class="container text-center">
+      <h2>About <span>Me</span></h2>
+      <br>
+      <div class="profile-pic-wrapper">
+         <img src="hero-img.webp" alt="Profile photo" />
+        <br>
+      </div>
+      <h3>Frontend Developer!</h3>
+      <br>
+      <p>Hi, I'm Vikranth, a dedicated and creative Frontend Developer with a strong passion for designing and building modern, responsive websites and applications. I specialize in turning beautiful UI/UX designs into functional, accessible, and fast-loading websites using HTML, CSS, JavaScript, and frameworks like React. I enjoy crafting seamless user experiences and love working on clean, scalable code that performs well across all devices and browsers.</p>
+      <br>
+      <div class="about-buttons">
+         <button class="btn"><a class="buttonabout" href="#education"><b>Read More</b></a></button>
+      </div>
+   </div>
+</section>
+
+<section id="education" class="timeline section">
+  <div class="container timeline-container">
+    <div class="column">
+      <h2 >Education</h2>
+      <br>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">2022 - 2026</p>
+          <h3>Bachelor Degree</h3>
+          <p>Completed Bachelor's Degree in Computer Science and Engineering at Dhirajlal Gandhi College of Technology, Salem with a strong foundation in programming, data structures, and web development. Focused on practical skills and real-world projects.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="circle"></span>
+        <div class="content-box">
+          <p class="date">2020 - 2022</p>
+          <h3>Higher Secondary</h3>
+          <p>Completed Higher Secondary Education at Sri Chaitanya Techno School Salem, with a focus in Computer Science, gaining strong foundational knowledge in programming, mathematics, and problem-solving.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="text-center">My <span>Skills</span></h2>
+      <br>
+      <div class="skills-grid">
+        <!-- Coding Skills -->
+        <div class="skills-card">
+          <h3>Coding Skills</h3>
+          <div class="skill">
+            <span>HTML</span>
+            <span>90%</span>
+            <div class="bar"><div class="fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill">
+            <span>CSS</span><span>80%</span>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span><span>65%</span>
+            <div class="bar"><div class="fill" style="width:65%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Python</span><span>75%</span>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+          </div>
+        </div>
+        <!-- Professional Skills -->
+        <div class="skills-card">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Web Design</span><span>95%</span>
+            <div class="bar"><div class="fill" style="width:95%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Web Development</span><span>67%</span>
+            <div class="bar"><div class="fill" style="width:67%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Graphic Design</span><span>85%</span>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="text-center">Contact <span>Me!</span></h2>
+      <br>
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row">
+          <input type="text" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea placeholder="Your Message" rows="6"></textarea>
+        <button type="submit" class="btn filled">Submit</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+
+</html>
